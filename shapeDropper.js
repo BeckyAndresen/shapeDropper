@@ -28,7 +28,10 @@ function printCoordinates(interaction) {
     return (
         function (coordinates, opt_geometry) {
             if (opt_geometry) {
-                console.log(JSON.stringify(opt_geometry.getCoordinates()));
+                
+                var displayCoordinates = document.getElementById("coordinates");
+                displayCoordinates.textContent = JSON.stringify(opt_geometry.getCoordinates());
+                
             }
             return interaction(coordinates, opt_geometry);
         }
