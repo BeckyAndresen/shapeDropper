@@ -1,7 +1,7 @@
 # shapeDropper
 
 ## Description 
-shapeDropper allows the user to drop regular polygon shapes on a map and receive the coordinates of the shape.
+shapeDropper allows the user to drop regular polygon shapes on a map and displays the coordinates of the shape.
 
 ## Code from OpenLayers
 This code is based off of the OpenLayers Draw Shapes Example: https://openlayers.org/en/latest/examples/draw-shapes.html
